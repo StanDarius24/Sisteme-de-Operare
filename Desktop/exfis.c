@@ -94,5 +94,7 @@ int main(int argv, char * argc[])
 		exit(8);
 	}
 	free(scrie);
+	close(fd1);
+	close(fd2);
 	return 0;
 }
