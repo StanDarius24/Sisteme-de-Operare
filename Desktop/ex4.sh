@@ -1,0 +1,1 @@
+chmod -R -v $2 $1/*.txt
